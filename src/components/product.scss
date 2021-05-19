@@ -1,0 +1,61 @@
+.card {
+  margin: 10px;
+  width: 340px;
+  height: auto;
+  border: solid 1px #aaa;
+  border-radius: 5px;
+  padding: 10px 0;
+  box-shadow: 5px 5px #ddd;
+}
+  .title {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+    h2 {
+      text-align: left;
+      font-size: 20px;
+      margin: 0;
+    }
+    h3 {
+      margin: 0 10px;
+      font-size: 20px;
+    }
+    .offer {
+      background-color: #ff8c69;
+      color: #fff;
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      border-radius: 40px;
+    }
+  .content {
+    text-align: left;
+    padding: 10px;
+  }
+    .imageContent {
+      display: flex;
+      justify-content: center;
+      height: 150px;
+      width: 100%;
+    }
+      img {
+        object-fit: cover;
+      }
+    h3 {
+      margin: 10px 0 0 0;
+    }
+    .classPrice {
+      text-decoration: line-through;
+    }
+    .offerProduct {
+      color: #ff8c69;
+    }
+    hr {
+      border: solid 1px #ff8c69;
+      background-color: #ff8c69;
+    }
+    .description {
+      height: 150px;
+      overflow-y: auto;
+    }
